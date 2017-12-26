@@ -17,3 +17,5 @@ function generate_str( $length = 3 ) {
     }
     return $str1."xxx".$str2;
 }
+
+echo generate_str(4);
